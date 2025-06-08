@@ -27,9 +27,9 @@ function showImage(keyword) {
   const image = document.createElement("img");
 
   if (keyword === "legend") {
-    image.src = "../images/1.jpg"; 
+    image.src = "../1.jpg"; 
   } else if (keyword === "hero") {
-    image.src = "../images/2.jpg"; 
+    image.src = "../2.jpg"; 
   }
 
   image.onerror = function() {
